@@ -1,5 +1,5 @@
-from arithmetic_operations import add, subtract, mulitply, divide
-from calculation_class import calculation_class
+from calculator.arithmetic_operations import add, subtract, mulitply, divide
+from calculator.calculation_class import calculation_class
 
 class Calculator:
     
