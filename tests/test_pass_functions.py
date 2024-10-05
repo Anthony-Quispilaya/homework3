@@ -1,5 +1,5 @@
 '''My Calculator Test'''
-from calculator.pass_functions import Calculator
+from calculator import Calculator
 
 def test_add():
     '''Addition function test'''
