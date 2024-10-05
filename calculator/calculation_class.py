@@ -1,6 +1,6 @@
 from decimal import Decimal
 from typing import Callable
-from calculator.arithmetic_operations import add, subtract, mulitply, divide
+from calculator.arithmetic_operations import add, subtract, multiply, divide
 
 class calculation_class:
     def __init__(self, a: Decimal, b: Decimal, ar_operation: Callable[[Decimal,Decimal], Decimal]):
@@ -9,10 +9,6 @@ class calculation_class:
         # Stores the arithmetic operation function
         self.ar_operation = ar_operation
         
-    def fetch_results(self):
-        # Fetches the stored arithmetic operation function with a and b
-        return self.ar_operation(self.a, self.b)
-    
     @staticmethod
     def create(a: Decimal, b: Decimal, ar_operation: Callable[[Decimal, Decimal], Decimal]):
         '''Creates a new calculation object'''

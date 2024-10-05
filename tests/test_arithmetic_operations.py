@@ -2,7 +2,7 @@
 from decimal import Decimal
 import pytest
 from calculator.calculation_history import calculation_class
-from calculator.arithmetic_operations import add, subtract, mulitply, divide
+from calculator.arithmetic_operations import add, subtract, multiply, divide
 
 def test_addition():
     '''Addition function test'''
@@ -16,7 +16,7 @@ def test_subtraction():
 
 def test_multiplication():
     '''Multiplication function test'''
-    calculation = calculation_class(Decimal('4'), Decimal('3'), mulitply)
+    calculation = calculation_class(Decimal('4'), Decimal('3'), multiply)
     assert calculation.perform() == Decimal('12'), "Multiplication test failed"
 
 def test_division():

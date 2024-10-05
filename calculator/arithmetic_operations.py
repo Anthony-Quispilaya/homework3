@@ -6,7 +6,7 @@ def add(a: Decimal,b: Decimal) -> Decimal:
 def subtract(a: Decimal, b: Decimal) -> Decimal:
     return a - b
 
-def mulitply(a: Decimal, b: Decimal) -> Decimal:
+def multiply(a: Decimal, b: Decimal) -> Decimal:
     return a * b
 
 def divide(a: Decimal, b: Decimal) -> Decimal:
